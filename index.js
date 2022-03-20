@@ -60,4 +60,4 @@ app.post('/status', (req, res) => {
 	});
 });
 
-All
+All fi
