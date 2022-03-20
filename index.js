@@ -60,4 +60,4 @@ app.post('/status', (req, res) => {
 	});
 });
 
-A
+All
