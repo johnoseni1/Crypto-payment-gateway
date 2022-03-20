@@ -16,6 +16,8 @@ const Client = coinbase.Client;
 Client.init(process.env.API_KEY);
 const Charge = coinbase.resources.Charge;
 
+// Charging
+
 app.post('/charge', (req, res) => {
 	let chargeData = {
 		name: req.body.name,

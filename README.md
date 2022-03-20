@@ -8,4 +8,4 @@
 
 ## Install node 
 
-![node download](https://nodejs.org/en/download/)
+[node download](https://nodejs.org/en/download/)
