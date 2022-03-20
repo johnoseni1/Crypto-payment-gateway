@@ -37,7 +37,7 @@ app.post('/charge', (req, res) => {
 	});
 });
 
-// Status check for paying using coinbase apis
+// Status check for paying using coinbase apis.
 app.post('/status', (req, res) => {
 	let id = req.body.id;
 	Charge.retrieve(id, (err, charge) => {
